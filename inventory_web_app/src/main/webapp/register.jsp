@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>Register New Users</h2>
+	<h2>Register Users</h2>
 	
 	<% if(request.getAttribute("failure")!= null) { %>
 	<h3><%= request.getAttribute("failure") %></h3>
